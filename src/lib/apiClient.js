@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://uaams-latest.onrender.com/api";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://uaams-latest.onrender.com/";
 const AUTH_TOKEN_KEY = "uaams_auth_token";
 
 const getStoredToken = () => {
